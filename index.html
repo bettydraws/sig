@@ -2,113 +2,300 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Elizabeth's Page</title>
+  <!-- Font Awesome -->
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css" rel="stylesheet">
 
-    <title> Halloween </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!--
-    .__  __       .__  __
-    |  \/  |_ _   |  \/  |
-    | |\/| | '_|  | |\/| |_
-    |_|  |_|_|(_) |_|  |_(_)
-    A Bootstrap 3.x template by Mr. M. - Confederation College
-    January 2017
-    NOTES:
-    - This contains all links to CDN's
-    - MIT Licence (c) 2017
+  <link rel="shortcut icon" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/favicon.ico">
+  <!-- Your custom styles (optional) -->
+  <!-- this had NOTHING in it ???  -->
+  <!-- link href="css/style.css" rel="stylesheet" -->
 
-    -->
+  <style>
+    /* TEMPLATE STYLES */
+    main {
+      padding-top: 3rem;
+      padding-bottom: 2rem;
+    }
+    .extra-margins {
+      margin-top: 1rem;
+      margin-bottom: 2.5rem;
+    }
+  </style>
 
-    <!-- Bootstrap -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Link to Font Awesome http://fontawesome.io/ -->
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- favicon - ref: http://stackoverflow.com/questions/25952907/favicon-ico-vs-link-rel-shortcut-icon -->
-    <link rel="shortcut icon" href="/path/to/icons/favicon.ico">
-    <link rel="icon" type="image/png" href="/path/to/icons/favicon-192x192.png" sizes="192x192">
-    <link rel="apple-touch-icon" sizes="180x180" href="/path/to/icons/apple-touch-icon-180x180.png">
-
-    <style type="text/css">
-        body {
-            /* for nav bar*/
-            margin-top: 50px;
-        }
-        
-        h1 {
-            color: #FF8300;
-        }
-        
-        img {
-            padding: 50px;
-        }
-    </style>
 
 </head>
 
 <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Project name</a>
-            </div>
-            <div id="navbar" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            <!--/.nav-collapse -->
-        </div>
+  <!--Main Navigation-->
+  <header>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark primary-color-dark">
+      <a class="navbar-brand" href="#"><strong>Elizabeth's Page</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Drawings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Paintings</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
-    <div class="container">
-        <h1>Halloween</h1>
+  </header>
+  <!--Main Navigation-->
 
-        <!-- Example row of columns -->
-        <div class="row">
-            <div class="col-md-4">
-                <h2>Spooky Scary Trick or Treating</h2>
-                <img src="http://www.cvims.org/wp-content/uploads/2015/09/Halloween.jpg" class="img-circle img-responsive" alt="halloween">
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+  <main>
+
+    <!--Main layout-->
+    <div class="container">
+      <!--First row-->
+      <div class="row">
+        <div class="col-md-7">
+          <!--Featured image -->
+          <div class="view overlay hm-white-light z-depth-1-half">
+            <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MothersDay-Photos-hero.2e16d0ba.fill-1440x810.jpg" class="img-fluid " alt="">
+            <div class="mask">
             </div>
+          </div>
+          <br>
         </div>
 
-        <hr>
+        <!--Main information-->
+        <div class="col-md-5">
+          <h2 class="h2-responsive wow fadeInDown">Photography  <small>Elizabeth</small></h2>
+          <hr>
+          <p>
 
-        <footer class="text-center">
-            <p><a href="http://facebook.com/"><i class="fa fa-facebook fa-2x"></i></a></p>
-            <p>© 2016 Company, Inc.</p>
-        </footer>
+            <ul class="wow fadeInUp">
+              <li>This is a page where you can find cool looking photos! </li>
+              <li>Everything you need to know </li>
+            </ul>
+            <a href="https://gist.github.com/mrmccormack/1c3ba355f020d9901f0bb5af25f871f2" class="btn btn-primary">GitHub.com</a>
+        </div>
+      </div>
+      <!--/.First row-->
+
+      <hr class="extra-margins">
+
+      <!--Second row-->
+      <div class="row">
+        <!--First columnn-->
+        <div class="col-md-4">
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay hm-white-slight">
+              <img src="data:image/jpeg;base64,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" class="img-fluid" alt="">
+              <a href="#">
+                <div class="mask"></div>
+              </a>
+            </div>
+            <!--/.Card image-->
+
+            <!--Card content-->
+            <div class="card-block p-3">
+              <!--Title-->
+              <h4 class="card-title">Sunglasses on a Beach</h4>
+              <!--Text-->
+              <p class="card-text">Beach Photography</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+            <!--/.Card content-->
+
+          </div>
+          <!--/.Card-->
+        </div>
+        <!--First columnn-->
+
+        <!--Second columnn-->
+        <div class="col-md-4">
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay hm-white-slight">
+              <img src="https://www.google.com/photos/about/static/images/maggie-2.png" class="img-fluid" alt="">
+              <a href="#">
+                <div class="mask"></div>
+              </a>
+            </div>
+            <!--/.Card image-->
+
+            <!--Card content-->
+            <div class="card-block p-3">
+              <!--Title-->
+              <h4 class="card-title">Running Dogs</h4>
+              <!--Text-->
+              <p class="card-text">Dogs playing and chasing eachother</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+            <!--/.Card content-->
+
+          </div>
+          <!--/.Card-->
+        </div>
+        <!--Second columnn-->
+
+        <!--Third columnn-->
+        <div class="col-md-4">
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay hm-white-slight">
+              <img src="https://images.unsplash.com/photo-1472245088132-ccd50746725c?dpr=1&auto=compress,format&fit=crop&w=376&h=251&q=80&cs=tinysrgb&crop=" class="img-fluid" alt="">
+              <a href="#">
+                <div class="mask"></div>
+              </a>
+            </div>
+            <!--/.Card image-->
+
+            <!--Card content-->
+            <div class="card-block p-3">
+              <!--Title-->
+              <h4 class="card-title">Food</h4>
+              <!--Text-->
+              <p class="card-text">Food and drinks to try</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+            <!--/.Card content-->
+
+          </div>
+          <!--/.Card-->
+        </div>
+        <!--Third columnn-->
+      </div>
+      <!--/.Second row-->
+    </div>
+    <!--/.Main layout-->
+
+  </main>
+
+  <div class="container">
+
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-3">
+      </div>
+
+      <div class="col-md-6">
+        <!-- Form login -->
+        <form>
+          <p class="h5 text-center mb-4">Check out more!</p>
+
+          <div class="md-form">
+            <i class="fa fa-envelope prefix grey-text"></i>
+            <input type="text" id="defaultForm-email" class="form-control">
+            <label for="defaultForm-email">Your email</label>
+          </div>
+
+          <div class="md-form">
+            <i class="fa fa-lock prefix grey-text"></i>
+            <input type="password" id="defaultForm-pass" class="form-control">
+            <label for="defaultForm-pass">Your password</label>
+          </div>
+
+          <div class="text-center">
+            <button class="btn btn-default">Login</button>
+          </div>
+        </form>
+        <!-- Form login -->
+
+
+      </div>
+
+      <div class="col-md-3">
+
+      </div>
 
     </div>
-    <!-- /container -->
+    </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!--Footer-->
+  <footer class="page-footer primary-color-dark center-on-small-only">
+
+    <!--Footer Links-->
+    <div class="container">
+      <div class="row">
+
+        <!--First column-->
+        <div class="col-md-6">
+          <h5 class="title">Footer Content</h5> &copy; 2017 <a href="https://mdbootstrap.com"> MDBootstrap.com </a>
+          <p>
+            Built with <i style="color:red;" class="fa fa-heart faa-pulse animated"></i> by Rob McCormack on Github.com <br>
+            <a href="https://validator.w3.org/nu/?doc=http://mrmccormack.com/mdbootstrap-template-cdn.html" target="_blank"><small>• HTML valid • </small></a>
+          </p>
+        </div>
+        <!--/.First column-->
+
+        <!--Second column-->
+        <div class="col-md-6">
+          <h5 class="title">Links</h5>
+          <ul>
+            <li><a href="http://mrmccormack.com/mdbootstrap-template-cdn.html">This page on GitHub</a></li>
+            <li><a href="#!">Link 2</a></li>
+            <li><a href="#!">Link 3</a></li>
+            <li><a href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <!--/.Second column-->
+      </div>
+    </div>
+    <!--/.Footer Links-->
+
+
+  </footer>
+  <!--/.Footer-->
+
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>
+
+  <script>
+    wow = new WOW().init();
+  </script>
 </body>
-
-<a href="http://cnn.com"><img src="https://www.google.com/s2/favicons?domain=cnn.com" alt=""> Read it on CNN.com</a>
-<a href="<a href=" http://builtwith.com alt="">builtwith</a>
 
 </html>
